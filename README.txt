@@ -1,3 +1,17 @@
+Selenium test environment for Appfuse
+by Carlos Sanchez http://www.carlossanchez.eu
+
+Allows to run Selenium tests as part of the Maven build, either in an specific container
+and browser or launching the tests in parallel in several browsers at the same time.
+
+For more information check my slides on "Enterprise Build and Test in the Cloud"
+http://www.jroller.com/carlossg/entry/apachecon_slides_enterprise_build_and
+
+By default it's configured to launch 3 browsers in parallel, Internet Explorer, Firefox 2 and 3
+Check src/test/resources/testng.xml for the configuration.
+
+In the single browser option you could do
+
 * Testing in Jetty 6 and Firefox (doesn't work for me in FF3)
 
   mvn install
