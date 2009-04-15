@@ -1,5 +1,7 @@
 Selenium test environment for Appfuse
-by Carlos Sanchez http://www.carlossanchez.eu
+
+Carlos Sanchez http://www.carlossanchez.eu
+G2iX http://www.g2ix.com
 
 Allows to run Selenium tests as part of the Maven build, either in an specific container
 and browser or launching the tests in parallel in several browsers at the same time.
