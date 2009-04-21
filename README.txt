@@ -6,8 +6,10 @@ G2iX http://www.g2ix.com
 Allows to run Selenium tests as part of the Maven build, either in an specific container
 and browser or launching the tests in parallel in several browsers at the same time.
 
-For more information check my slides on "Enterprise Build and Test in the Cloud"
+For more information check my slides and blog entries on "Enterprise Build and Test in the Cloud"
 http://www.jroller.com/carlossg/entry/apachecon_slides_enterprise_build_and
+http://www.jroller.com/carlossg/entry/enterprise_build_and_test_in1
+http://www.jroller.com/carlossg/entry/enterprise_build_and_test_in2
 
 By default it's configured to launch 3 browsers in parallel, Internet Explorer, Firefox 2 and 3
 Check src/test/resources/testng.xml for the configuration.
